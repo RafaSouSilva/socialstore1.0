@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<style>
+    .bg{
+ width: 100%;
+    height:auto;
+	min-height:100vh;
+background-color: #cccccc;
+    background-size: 100% 100%;
+    background-position: top center;
+    margin:auto;
+}
+
+.mainRow{
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p{
+   margin:0px; }
+
+.desc{
+  background-color: #f0edeb;
+  margin-top: 5%;
+  margin-left:0;
+  margin-right:50px;
+  margin-bottom: 4%;
+  }
+
+
+  .card-body{
+    padding:0;
+    margin:0;
+      margin-top:10%;
+
+  }
+  
+  div.card.main{
+    margin:0px!important;
+  }
+
+
+.card{
+  padding:0!important;
+  margin-top:40px;
+}
+
+
+
+
+.quantity,.shipping,.promocode,.subtotal,.cardAndExpire,.nameAndcvc{
+  margin:5%;
+  color:#6c757d!important
+}
+
+.heading1{
+    margin:5%;
+font-size: 25px;
+}
+
+.heading2{
+    margin:5%;
+margin-top:15%;
+font-size: 20px;
+}
+
+.payment{
+  background-color: #f0edeb;
+  padding:3px;
+  margin-top: 15%;
+}
+
+.text1{
+color:black;
+font-weight: 700;
+}
+
+.card-footer{
+background-color: black;
+color:white;
+}
+
+.purchaseLink{
+  text-decoration: none;
+}
+
+.row1{
+font-size:12px;
+}
+
+.row2{
+  font-weight: 600;
+}
+
+.subRow{
+  margin-left:10%;
+margin-bottom: 2%;
+  margin-top:5%;
+}
+
+p.cardAndExpireValue,p.nameAndcvcValue{
+  margin:5%;
+  margin-bottom: 10%;
+font-weight: 600;}
+
+p.nameAndcvc,p.cardAndExpire{
+  margin-bottom: -10px;
+}
+
+.total{
+  margin:5%;
+}
+
+.totalText{
+  font-weight: 700;
+
+}
+.totalText2{
+ font-weight: 700;
+  font-size:30px;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: 430px;
+}
+</style>
+<body>
+    
+    <nav class="navbar navbar-dark bg-dark justify-content-between">
+        <a class="navbar-brand" href="index.html"> Social Store</a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar Ex: Calça Jeans" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar Produtos</button> 
+        </form>
+         </nav>
+
+<!--For Page-->
+<div class="bg">
+
+
+	<!--For Row containing all card-->
+	<div class="row mainRow">
+
+
+
+		<!--Card 1-->
+		<div class="col-sm-8">
+			<div class="card card-cascade wider shadow p-3 mb-5 ">
+
+				<!--Card image-->
+				<div class="view view-cascade overlay text-center">
+					<img class="card-img-top" src="images/1.png"
+      alt="">
+					<a>
+						<div class="mask rgba-white-slight"></div>
+					</a>
+				</div>
+
+
+				<!--Product Description-->
+				<div class="desc">
+
+					<!-- 1st Row for title-->
+					<div class="row subRow">
+
+						<!--Column for Data-->
+						<div class="col">
+						</div>
+
+						<!--Column for Data-->
+						<div class="col">
+						</div>
+
+						<!--Column for Data-->
+						<div class="col">
+						</div>
+
+					</div>
+
+
+
+
+
+					<!-- 2nd Row for title-->
+					<div class="row subRow">
+
+						<!--Column for Data-->
+						<div class="col">
+							<p class="text-muted row1">Tamanho</p>
+							<p class="row2">M</p>
+						</div>
+
+						<!--Column for Data-->
+						<div class="col">
+							<p class="text-muted row1">Cor</p>
+							<p class="row2">Azul</p>
+						</div>
+
+						<!--Column for Data-->
+						<div class="col">
+							<p class="text-muted row1">Loja Verificada</p>
+							<p class="row2">Sim</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!--Card 2-->
+		<div class="col-sm-4">
+			<div class="card card-cascade card-ecommerce wider shadow p-3 mb-5 ">
+
+				<!--Card Body-->
+				<div class="card-body card-body-cascade">
+
+					<!--Card Description-->
+					<div class="card2decs">
+
+						<p class="heading1"><strong>Calça Jeans Feminina</strong></p>
+						<p class="quantity">Qtd <span class="float-right text1">1</span></p>
+						<p class="subtotal">Subtotal<span class="float-right text1">$39,90</span></p>
+						<p class="shipping">Frete<span class="float-right text1">Grátis</span></p>
+						<p class="promocode">Promo Code<span class="float-right text1">-$10</span></p>
+						<p class="total"><strong>Total</strong><span class="float-right totalText1">$<span class="totalText2">29,90</span></span></p>
+
+					</div>
+
+					<div class="payment">
+
+						<p class="heading2"><strong>Detalhes do pagamento</strong></p>
+						<p class="cardAndExpire">Cartão Número<span class="float-right">Venc.</span></p>
+            <p class="cardAndExpireValue">161617161816188<span class="float-right">26/11</span></p>
+						<p class="nameAndcvc" style="margin-bottom:-10px;">Nome do titular:<span class="float-right">CVC</span></p>
+						<p class="nameAndcvcValue">João Silva<span class="float-right">010</span></p>
+
+					</div>
+
+					<!--Card footer-->
+					<a href="" class="purchaseLink">
+						<div class="card-footer text-center">
+							Comprar &#8594;
+                            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Após efetuar a compra, usuário poderá seguir o Instagram da loja">
+                                <button class="btn btn-primary" style="pointer-events: none;" type="button" disabled>Instagram da loja.</button>
+                              </span>
+						</div>
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+</body>
+</html>
